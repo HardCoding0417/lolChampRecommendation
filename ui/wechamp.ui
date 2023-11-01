@@ -35,36 +35,36 @@
    <widget class="QLineEdit" name="le_keyword">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>50</x>
       <y>90</y>
-      <width>311</width>
-      <height>31</height>
+      <width>271</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="placeholderText">
-     <string>챔피언 이름이나 키워드를 입력하세요</string>
+     <string>키워드를 입력하세요</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_recommendation">
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>340</x>
       <y>90</y>
-      <width>81</width>
-      <height>31</height>
+      <width>91</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="text">
@@ -74,11 +74,16 @@
    <widget class="QListWidget" name="listWidget_recommendations">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>40</x>
       <y>150</y>
-      <width>381</width>
-      <height>461</height>
+      <width>411</width>
+      <height>471</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
     </property>
    </widget>
   </widget>
